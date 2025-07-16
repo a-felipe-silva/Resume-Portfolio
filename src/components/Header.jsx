@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <header className="w-full px-8 py-6 bg-transparent">
-      <div className="flex justify-center md:justify-between items-end flex-wrap gap-y-4">
+      <div className="flex justify-center md:justify-between items-end flex-wrap gap-y-12">
         <div className="flex justify-between md:justify-start items-center space-x-4 basis-full md:basis-auto flex-1">
           {/* Nome à esquerda */}
           <h1 className="text-4xl sm:text-3xl md:text-2xl lg:text-xl font-semibold text-gray-900 dark:text-gray-300">Agostinho Felipe</h1>
