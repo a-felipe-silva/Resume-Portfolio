@@ -38,7 +38,7 @@ const Header = () => {
         <nav className="flex flex-wrap gap-x-6 text-sm md:text-base justify-center md:justify-start">
           <a href="#sobre" className="hover:font-bold transition-all">Sobre</a>
           <a href="#habilidades" className="hover:font-bold transition-all">Habilidades</a>
-          <a href="#projetos" className="hover:font-bold transition-all">Projetos</a>
+          <a href="#experiencias" className="hover:font-bold transition-all">Experiências</a>
           <a href="#formacao" className="hover:font-bold transition-all">Formação</a>
           <a href="#contato" className="hover:font-bold transition-all">Contato</a>
         </nav>
