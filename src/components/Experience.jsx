@@ -51,9 +51,9 @@ const jobs = [
               <p className="mt-2 text-sm">{job.descricao}</p>
 
               {job.tags?.length > 0 && (
-                <ul className="flex flex-wrap gap-2 mt-3 text-sm text-white">
+                <ul className="flex flex-wrap gap-2 mt-3 text-sm text-gray-300 dark:text-gray-900">
                   {job.tags.map((tag, i) => (
-                    <li key={i} className="bg-gray-700 px-3 py-1 rounded-full">{tag}</li>
+                    <li key={i} className="bg-gray-700 dark:bg-gray-100 px-3 py-1 rounded-full">{tag}</li>
                   ))}
                 </ul>
               )}

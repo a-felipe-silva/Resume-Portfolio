@@ -35,7 +35,7 @@ const Header = () => {
         </div>
 
         {/* Navegação à direita */}
-        <nav className="flex flex-wrap gap-x-6 text-sm md:text-base">
+        <nav className="flex flex-wrap gap-x-6 text-sm md:text-base justify-center md:justify-start">
           <a href="#sobre" className="hover:font-bold transition-all">Sobre</a>
           <a href="#habilidades" className="hover:font-bold transition-all">Habilidades</a>
           <a href="#projetos" className="hover:font-bold transition-all">Projetos</a>
