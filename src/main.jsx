@@ -8,7 +8,7 @@ import { isMobile } from 'react-device-detect';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    {isMobile ? (
+    {!isMobile ? (
       <CustomCursor />
     ) : null}
   </React.StrictMode>
