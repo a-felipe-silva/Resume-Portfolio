@@ -21,7 +21,7 @@ export default function ProfilePicture() {
         ref={imageRef}
         src="/images/profile.jpg"
         alt="Agostinho Felipe"
-        className={`w-38 h-38 md:w-48 md:h-48 scale-100 hover:scale-105 rounded-full object-cover border-4 border-gray-300 dark:border-gray-600 shadow-md filter contrast-90 ${isVisible ? "brightness-100  grayscale-10" : "brightness-80 grayscale-0"} transition duration-300 ease-in-out`}
+        className={`flex-none w-38 h-38 hover:w-62 hover:h-62 md:w-48 md:h-48 md:hover:w-84 md:hover:h-84 rounded-full object-cover border-4 border-gray-300 dark:border-gray-600 shadow-md filter contrast-90 ${isVisible ? "brightness-100  grayscale-10" : "brightness-80 grayscale-0"} transition-all duration-300 ease-in-out`}
         onClick={() => window.open("https://www.linkedin.com/in/agostinhofelipe/", "_blank")}
     />
   );
